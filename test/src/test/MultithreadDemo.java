@@ -3,9 +3,11 @@ class Hi extends Thread{
 	public void run() {
 		for(int i=1;i<=5;i++) {
 		System.out.println("Hi");
+		System.out.println("Hello"+i);
 		}
 		try {
 			Thread.sleep(5000);
+			Thread.sleep(10);
 		} catch (InterruptedException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
