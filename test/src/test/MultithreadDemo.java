@@ -4,10 +4,12 @@ class Hi extends Thread{
 		for(int i=1;i<=5;i++) {
 		System.out.println("Hi");
 		System.out.println("Hello"+i);
+		System.out.println(i);
 		}
 		try {
 			Thread.sleep(5000);
 			Thread.sleep(10);
+			System.out.println("for Testing");
 		} catch (InterruptedException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
